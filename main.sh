@@ -28,7 +28,7 @@ TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 KEY="7768764548:AAGS1Bv7kdUDQ6hq7OHUi521jxUcgbMFYp8"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
-REPO="https://raw.githubusercontent.com/kaccang/pintu/"
+REPO="https://raw.githubusercontent.com/kaccang/pintu/main/"
 APT="apt-get -y install "
 domain=$(cat /root/domain)
 start=$(date +%s)
