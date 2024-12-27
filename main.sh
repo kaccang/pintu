@@ -166,6 +166,9 @@ function pasang_ssl() {
 }
 
 ### Install Xray
+mkdir -p /usr/bin/xray
+mkdir -p /etc/websocket
+mkdir -p /etc/systemd/system
 function install_xray() {
     judge "Core Xray 1.6.5 Version installed successfully"
     curl -s ipinfo.io/city >>/etc/xray/city
